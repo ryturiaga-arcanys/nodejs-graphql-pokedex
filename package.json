@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-graphql-pokedex",
+  "version": "1.0.0",
+  "description": "Simple NodeJS GraphQL API for First-generation Pokemon database in MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "env-cmd nodemon src/index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "graphql",
+    "mongodb"
+  ],
+  "author": "Reyber Ian E. Yturiaga",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "graphql-http": "^1.22.0",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.3"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^3.0.1"
+  }
+}
